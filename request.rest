@@ -1,0 +1,23 @@
+POST http://127.0.0.1:6000/login
+Content-Type: application/json
+
+{
+    "username": "pankajmsharma357",
+    "password": "qwerty",
+    "orgId": "2"
+}
+###
+GET http://localhost:6001/my-posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBhbmtham1zaGFybWEzNTciLCJwYXNzd29yZCI6InF3ZXJ0eSIsIm9yZ0lkIjoiMiIsImlhdCI6MTYxOTk0OTQ1NiwiZXhwIjoxNjE5OTQ5NTU2fQ.RqOstQPMnz6HVR7BOJjq4i0URZeGNUTR5ESOk2b8PDs
+
+###
+GET http://localhost:6002/my-posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBhbmtham1zaGFybWEzNTciLCJvcmdJZCI6IjIiLCJpYXQiOjE2MTk5NjYyOTUsImV4cCI6MTYxOTk2NjMyNX0.KqNYcGCr8rHzT1YTwDCfgG82iBh3MhB99K41_G1ypEc
+
+###
+POST http://localhost:6000/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBhbmtham1zaGFybWEzNTciLCJvcmdJZCI6IjIiLCJpYXQiOjE2MTk5NjYyNjAsImV4cCI6MTYxOTk2NjMxMH0.WrdSbPG5bQmT7NSR0GsbTgW2W5ay3ULmORJtL_3-R_c"
+}

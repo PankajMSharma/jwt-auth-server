@@ -1,0 +1,23 @@
+{
+  "name": "jwt-token-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "(npm run serve:authServer) | (npm run serve:resource1Server) | (npm run serve:resource2Server)",
+    "serve:authServer": "nodemon authServer.js",
+    "serve:resource1Server": "nodemon app1.js",
+    "serve:resource2Server": "nodemon app2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
