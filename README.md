@@ -1,6 +1,8 @@
 # jwt-auth-server
 General Auth Server Based on JWT Tokens. A NodeJs Project.
 
+# STATUS - DEVELOPMENT COMPLETE
+
 # Explanation
 This is a self contained project.
 
